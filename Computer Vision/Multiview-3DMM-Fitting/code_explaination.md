@@ -259,6 +259,8 @@ landmark = np.vstack([landmark[0:48], landmark[49:54], landmark[55:68]])
   - **索引48的点**：通常位于嘴巴外部下唇与脸部皮肤的连接处。
   - **索引54的点**：通常位于嘴巴内部或下唇与下巴之间的位置。
 
+<img src="https://cdn.jsdelivr.net/gh/NonEspoir/figures@main/img/image-20240903101517308.png" alt="image-20240903101517308" style="zoom: 67%;" />
+
 ### 为什么要移除这两个关键点？
 
 有几种可能的原因，为什么在项目中选择移除这两个关键点：
